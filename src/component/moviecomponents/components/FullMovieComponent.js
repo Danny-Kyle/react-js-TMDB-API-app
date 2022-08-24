@@ -29,7 +29,7 @@ const FullMovieComponent = ({ slug, item }) => {
   useEffect(() => {
     fetchCast();
     fetchImages();
-  }, []);
+  });
   return (
     <div className="bg-white dark:text-white text-black dark:bg-gray-900">
       <div className="relative inline-block text:gray-900 dark:text-gray-100 w-full dark:border-transparent text-3xl sm:text-4xl md:text-3xl lg:text-4xl xl:text-6xl">

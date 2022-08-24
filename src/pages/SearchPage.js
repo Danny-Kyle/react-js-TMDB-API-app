@@ -22,7 +22,7 @@ const SearchPage = ({ darkMode, setDarkMode }) => {
       fetchSearchResults();
     } else {
     }
-  }, [text]);
+  });
 
   const onChange = (q) => {
     setText(q);

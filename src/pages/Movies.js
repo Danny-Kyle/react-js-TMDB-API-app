@@ -27,7 +27,7 @@ const Movies = ({ darkMode, setDarkMode }) => {
   };
   console.log(pageNo);
   return (
-    <div className="bg-sky-300 dark:bg-gray-900">
+    <div className="bg-sky-300 min-h-full dark:bg-gray-900">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <div className="py-2 flex gap-x-6 justify-center items-center">
         <SearchButton />
